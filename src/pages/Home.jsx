@@ -36,7 +36,7 @@ const Home = () => {
               {...headContentAnimation}
             >
               <p className="max-w-md font-normal text-gray-600 text-base">
-                Crie a sua, única e exclusiva, camisa com uma ferramenta de
+                Crie a sua camisa, única e exclusiva, com uma ferramenta de
                 customização 3D. <strong>Libere sua imaginação</strong>
                 {""} e defina seu próprio estilo.
               </p>
