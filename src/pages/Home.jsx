@@ -27,7 +27,7 @@ const Home = () => {
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text">
+              <h1 className="head-text drop-shadow-xl">
                 A SUA <br className="xl:block hidden" /> CAMISA.
               </h1>
             </motion.div>
@@ -35,7 +35,7 @@ const Home = () => {
               className="flex flex-col gap-5"
               {...headContentAnimation}
             >
-              <p className="max-w-md font-normal text-gray-600 text-base">
+              <p className="max-w-md font-normal text-gray-900 text-base drop-shadow-xl ">
                 Crie a sua camisa, única e exclusiva, com uma ferramenta de
                 customização 3D. <strong>Libere sua imaginação</strong>
                 {""} e defina seu próprio estilo.
@@ -43,7 +43,7 @@ const Home = () => {
               <CustomButton
                 type="filled"
                 title="Customizar"
-                customStyles="w-fit px-4 py-2.5 font-bold text-sm"
+                customStyles="w-fit px-4 py-2.5 font-bold text-sm hover:drop-shadow-xl"
                 handleClick={() => (state.intro = false)}
               />
             </motion.div>
