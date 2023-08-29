@@ -15,24 +15,30 @@ function FilePicker({ file, setFile, readFile }) {
         <label htmlFor="file-upload" className="filepicker-label">
           Inserir imagem
         </label>
-        <p className="mt-2 text-grey-500 text-xs truncate">
+        <p className="mt-2 pb-4 text-grey-500 text-xs truncate">
           {file === "" ? "Nenhuma imagem selecionada" : file.name}
         </p>
-
-        <div className="mt-4 flex flex-wrap gap-3">
-          <CustomButton
-            type="outline"
-            title="Logo"
-            handleClick={() => readFile("logo")}
-            customStyles="text-xs"
-          />
-          <CustomButton
-            type="filled"
-            title="Total"
-            handleClick={() => readFile("full")}
-            customStyles="text-xs"
-          />
-        </div>
+        {file === "" ? (
+          ""
+        ) : (
+          <>
+            <p>Selecione onde aplicar a imagem</p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              <CustomButton
+                type="outline"
+                title="Logo"
+                handleClick={() => readFile("logo")}
+                customStyles="text-xs"
+              />
+              <CustomButton
+                type="filled"
+                title="Total"
+                handleClick={() => readFile("full")}
+                customStyles="text-xs"
+              />
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

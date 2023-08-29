@@ -20,14 +20,14 @@ const Home = () => {
         <motion.section className="home" {...slideAnimation("left")}>
           <motion.header {...slideAnimation("down")}>
             <img
-              src="./threejs.png"
+              src="./EJCS-light-logo.png"
               alt="logo"
-              className="w-8 h-8 object-container"
+              className="w-14 h-10 object-container hover:drop-shadow-[0_0_8px_#07060D]"
             />
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text drop-shadow-xl">
+              <h1 className="head-text drop-shadow-[0_0_4px_rgba(250,250,250,0.25)]">
                 A SUA <br className="xl:block hidden" /> CAMISA.
               </h1>
             </motion.div>
@@ -35,9 +35,10 @@ const Home = () => {
               className="flex flex-col gap-5"
               {...headContentAnimation}
             >
-              <p className="max-w-md font-normal text-gray-900 text-base drop-shadow-xl ">
+              <p className="max-w-md font-bold text-gray-200 text-lg drop-shadow-[0_0_4px_rgba(0,0,0,1)] ">
                 Crie a sua camisa, única e exclusiva, com uma ferramenta de
-                customização 3D. <strong>Libere sua imaginação</strong>
+                customização 3D.{" "}
+                <strong className="text-gray-50">Libere sua imaginação</strong>
                 {""} e defina seu próprio estilo.
               </p>
               <CustomButton
