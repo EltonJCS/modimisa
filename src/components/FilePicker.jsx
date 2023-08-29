@@ -28,7 +28,7 @@ function FilePicker({ file, setFile, readFile }) {
           />
           <CustomButton
             type="filled"
-            title="Full"
+            title="Total"
             handleClick={() => readFile("full")}
             customStyles="text-xs"
           />

@@ -3,6 +3,6 @@ import swatch from "./swatch.png";
 import download from "./download.png";
 
 import logoShirt from "./logo-tshirt.png";
-import stylishShirt from "./stylish-tshirt.png";
+import totalShirt from "./total-tshirt.png";
 
-export { fileIcon, swatch, download, logoShirt, stylishShirt };
+export { fileIcon, swatch, download, logoShirt, totalShirt };
