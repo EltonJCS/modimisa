@@ -27,7 +27,7 @@ const Home = () => {
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text drop-shadow-[0_0_4px_rgba(250,250,250,0.25)]">
+              <h1 className="head-text drop-shadow-[0_0_4px_rgba(250,250,250,0.25)] ">
                 A SUA <br className="xl:block hidden" /> CAMISA.
               </h1>
             </motion.div>
