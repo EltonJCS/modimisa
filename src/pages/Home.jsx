@@ -19,11 +19,13 @@ const Home = () => {
       {snap.intro && (
         <motion.section className="home" {...slideAnimation("left")}>
           <motion.header {...slideAnimation("down")}>
-            <img
-              src="./EJCS-light-logo.png"
-              alt="logo"
-              className="w-14 h-10 object-container hover:drop-shadow-[0_0_8px_#07060D]"
-            />
+            <a href="http://eltonjcs.github.io/MyLinks" target="_blank">
+              <img
+                src="./EJCS-light-logo.png"
+                alt="logo"
+                className="w-14 h-10 object-container hover:drop-shadow-[0_0_8px_#07060D]"
+              />
+            </a>
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
