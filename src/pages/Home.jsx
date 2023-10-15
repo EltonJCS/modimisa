@@ -37,7 +37,7 @@ const Home = () => {
               className="flex flex-col gap-5"
               {...headContentAnimation}
             >
-              <p className="max-w-md font-bold text-gray-200 text-lg drop-shadow-[0_0_4px_rgba(0,0,0,1)] ">
+              <p className="max-w-md font-bold text-gray-200 text-lg max-sm:self-center drop-shadow-[0_0_4px_rgba(0,0,0,1)] ">
                 Crie a sua camisa, única e exclusiva, com uma ferramenta de
                 customização 3D.{" "}
                 <strong className="text-gray-50">Libere sua imaginação</strong>
@@ -46,7 +46,7 @@ const Home = () => {
               <CustomButton
                 type="filled"
                 title="Customizar"
-                customStyles="w-fit px-4 py-2.5 font-bold text-sm hover:drop-shadow-xl"
+                customStyles="w-fit px-4 py-2.5 font-bold text-sm max-sm:self-center hover:drop-shadow-xl"
                 handleClick={() => (state.intro = false)}
               />
             </motion.div>

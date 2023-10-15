@@ -24,12 +24,27 @@ html {
 }
 
 .home-content {
-  @apply flex-1 xl:justify-center justify-start flex flex-col gap-10;
+  @apply flex-1 xl:justify-center justify-start flex flex-col gap-10 max-sm:text-center max-sm:w-full;
 }
 
 .head-text {
   @apply xl:text-[10rem] text-[6rem] xl:leading-[11rem] leading-[7rem] font-black text-black;
   user-select: none;
+}
+
+@media not all and (min-width: 460px) {
+  .home {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .home-content {
+    padding-top: 4rem;
+  }
+  .head-text {
+    font-size: 5rem;
+    line-height: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 
 .download-btn {

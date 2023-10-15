@@ -1,8 +1,10 @@
 import { proxy } from "valtio";
 
+const randomColor = `hsl(${Math.random() * 360}, 100%, 50%, 1)`;
+
 const state = proxy({
   intro: true,
-  color: "#07060D",
+  color: randomColor,
   isLogoTexture: true,
   isFullTexture: false,
   logoDecal: "./EJCS-light-logo.png",
