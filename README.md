@@ -8,7 +8,7 @@
 </div>
   
 ## Sobre
-Este é um site que possibilita a customização de uma camisa com visualização em 3D utilizando React e ThreeJS. Permite a mudança de cor, applicação de estampa e download do modelo.
+Este é um site que possibilita a customização de uma camisa com visualização em 3D utilizando React e ThreeJS. Permite a mudança de cor, aplicação de estampa e download do modelo.
 
 ## Tecnologias utilizadas
 O projeto foi desenvolvido utilizando:
