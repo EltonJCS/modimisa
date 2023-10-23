@@ -44,3 +44,4 @@ O projeto foi desenvolvido utilizando:
 </ul>
 <hr>
 <p align="center">Made with ☕ by <a href="https://github.com/eltonjcs">EltonJCS</a></p>
+<div align="center"><a href="https://github.com/eltonjcs"><img src="public/EJCS-light-logo.png" alt="EltonJCS" width="100px"></a></div>
