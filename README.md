@@ -9,22 +9,30 @@
 
 <br>
   
-## Sobre
+## Sobre | About
 <p>Este é um site que possibilita a customização de uma camisa com visualização em 3D.</p>
+<p><i>This is a website that allows you to customize a shirt with 3D visualization.</i></p>
 
 <br>
 
-## Funcionalidades
-<p>É possível realizar:</p>
+## Funcionalidades | Features
+<p>É possível:</p>
 <ul>
-  <li>Mudança de cor</li>
-  <li>Aplicação de estampa (simples ou total)</li>
-  <li>Download do modelo em imagem</li>
+  <li>Mudar a cor da camisa</li>
+  <li>Aplicar estampas (simples e/ou total)</li>
+  <li>Baixar o modelo em formato de imagem</li>
 </ul>
+<i><p>It's possible to:</p>
+<ul>
+  <li>Change the shirt color</li>
+  <li>Apply prints (center and/or all-over)</li>
+  <li>Download of the template in image format</li>
+</ul>
+</i>
 
 <br>
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas | Technologies Used
 O projeto foi desenvolvido utilizando:
 <ul>
   <li><b>React</b>: Uma biblioteca JavaScript para criação de interfaces de usuário.</li>
