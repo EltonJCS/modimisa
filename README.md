@@ -1,10 +1,10 @@
 <div align="center">
   <h1><b>Modimisa</b></h1>
   <a href="https://EltonJCS.github.io/modimisa">
-    <p><b>Visualização ao vivo</b></p>
+    <p><b>Visualização ao vivo | Live preview</b></p>
+    <img src="https://i.ibb.co/BVqBJLj/Modimisa-Home.png" alt="Modimisa-Home">
+    <img src="https://i.ibb.co/GWWjPCD/Modimisa-Customize.png" alt="Modimisa-Customize">
   </a>
-    <a href="https://EltonJCS.github.io/modimisa"><img src="https://i.ibb.co/BVqBJLj/Modimisa-Home.png" alt="Modimisa-Home"></a>
-    <a href="https://EltonJCS.github.io/modimisa"><img src="https://i.ibb.co/GWWjPCD/Modimisa-Customize.png" alt="Modimisa-Customize"></a>
 </div>
 
 <br>
