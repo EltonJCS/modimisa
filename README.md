@@ -1,7 +1,7 @@
 <div align="center">
   <h1><b>Modimisa</b></h1>
   <a href="https://EltonJCS.github.io/modimisa">
-    <p><b>Visualização ao vivo | Live preview</b></p>
+    <p><b>Visualização ao vivo | <i>Live preview</b></i></p>
     <img src="https://i.ibb.co/BVqBJLj/Modimisa-Home.png" alt="Modimisa-Home">
     <img src="https://i.ibb.co/GWWjPCD/Modimisa-Customize.png" alt="Modimisa-Customize">
   </a>
@@ -9,13 +9,13 @@
 
 <br>
   
-## Sobre | About
+## Sobre | <i>About</i>
 <p>Este é um site que possibilita a customização de uma camisa com visualização em 3D.</p>
 <p><i>This is a website that allows you to customize a shirt with 3D visualization.</i></p>
 
 <br>
 
-## Funcionalidades | Features
+## Funcionalidades | <i>Features</i>
 <p>É possível:</p>
 <ul>
   <li>Mudar a cor da camisa</li>
@@ -32,7 +32,7 @@
 
 <br>
 
-## Tecnologias utilizadas | Technologies Used
+## Tecnologias utilizadas | <i>Technologies Used</i>
 O projeto foi desenvolvido utilizando:
 <ul>
   <li><b>React</b>: Uma biblioteca JavaScript para criação de interfaces de usuário.</li>
