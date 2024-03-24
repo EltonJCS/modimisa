@@ -1,6 +1,7 @@
 import Canvas from "./canvas";
 import Home from "./pages/Home";
 import Customizer from "./pages/Customizer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Home />
         <Canvas />
         <Customizer />
+        <Footer />
       </main>
     </>
   );
