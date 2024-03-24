@@ -7,8 +7,8 @@ const state = proxy({
   color: randomColor,
   isLogoTexture: true,
   isFullTexture: false,
-  logoDecal: "./EJCS-light-logo.png",
-  fullDecal: "./EJCS-light-logo.png",
+  logoDecal: "./EJCS-light-logo.svg",
+  fullDecal: "./EJCS-light-logo.svg",
 });
 
 export default state;
