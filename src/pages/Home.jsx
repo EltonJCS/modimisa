@@ -19,7 +19,7 @@ const Home = () => {
       {snap.intro && (
         <motion.section className="home" {...slideAnimation("left")}>
           <motion.header {...slideAnimation("down")}>
-            <a href="http://eltonjcs.github.io/MyLinks" target="_blank">
+            <a href="http://eltonjcs.vercel.app" target="_blank">
               <img
                 src="./EJCS-light-logo.svg"
                 alt="logo"
